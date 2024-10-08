@@ -23,6 +23,7 @@ nav ul {
 
 nav li {
     margin: 0 20px;
+    display: inline;
     /* Space between the links */
 }
 
