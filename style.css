@@ -51,8 +51,10 @@ nav ul {
     /* Center the items */
 }
 
-nav li {
+nav li a {
     margin: 0 20px;
+    display: block;
+    background-color: #8b8989;
     /* Space between items */
 }
 
