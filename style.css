@@ -1,15 +1,45 @@
+/* Basic Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Body Styling */
+/* Background colors for different pages */
+body.Home {
+    background-color: #f80000;
+    /* Light grey for home */
+}
+
+body.resume {
+    background-color: #e0f7fa;
+    /* Light blue for resume */
+}
+
+body.gallery {
+    background-color: #fff3e0;
+    /* Light orange for gallery */
+}
+
+body.projects {
+    background-color: #e8f5e9;
+    /* Light green for projects */
+}
+
+body.contact {
+    background-color: #fce4ec;
+    /* Light pink for contact */
+}
+
 /* Navigation Bar Styles */
 nav {
     background-color: #333;
-    /* Dark background for the nav */
-    padding: 10px;
-    /* Space around the nav items */
+    /* Dark background for nav */
+    padding: 10px 0;
+    /* Space around nav items */
+    margin-bottom: 20px;
+    /* Space below the nav */
 }
 
 nav ul {
@@ -23,8 +53,7 @@ nav ul {
 
 nav li {
     margin: 0 20px;
-    display: inline;
-    /* Space between the links */
+    /* Space between items */
 }
 
 nav a {
@@ -33,22 +62,48 @@ nav a {
     text-decoration: none;
     /* Remove underline */
     font-weight: bold;
-    /* Bold text */
-    transition: background 0.3s, color 0.3s;
-    /* Smooth transitions */
-    padding: 5px 10px;
-    /* Padding around the links */
+    transition: background-color 0.3s, color 0.3s;
+    padding: 8px 15px;
+    /* Padding for clickable area */
 }
 
 nav a:hover {
     background-color: #555;
     /* Background color on hover */
     border-radius: 5px;
-    /* Rounded corners on hover */
+    /* Rounded corners */
 }
 
+/* h1 Styling */
 h1 {
     color: rgb(247, 0, 0);
+    /* Red color for h1 */
     text-align: right;
+    /* Aligns text to the right */
     font-size: 20px;
+    /* Smaller font size */
+    margin-bottom: 20px;
+    /* Space below h1 */
+}
+
+/* Container for content */
+.container {
+    text-align: left;
+    /* Left align text */
+    max-width: 1000px;
+    /* Limit width of content */
+    margin: auto;
+    /* Center the content */
+    padding: 20px;
+    /* Padding inside the container */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    /* Soft shadow around the box */
+}
+
+/* Add styling for section headings */
+h2 {
+    color: #333;
+    /* Dark grey color for section headings */
+    margin-bottom: 10px;
+    /* Space below the heading */
 }
